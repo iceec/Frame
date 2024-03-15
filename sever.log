@@ -1,0 +1,227 @@
+Debug: 12:10:45  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 12:10:45  Socket/Socket.cpp: 44  Bind success 
+Debug: 12:10:45  Socket/Socket.cpp: 58  4 is listening...
+Debug: 12:10:45  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch -1691035904 is start
+Debug: 12:10:45  Thread/Thread_Poll.cpp: 23  Thread 139928335075072 is in poll
+Debug: 12:10:45  Thread/WorkThread.cpp: 8  Thread 139928335075072 start
+Debug: 12:10:45  Thread/Thread_Poll.cpp: 23  Thread 139928326682368 is in poll
+Debug: 12:10:45  Thread/WorkThread.cpp: 8  Thread 139928326682368 start
+Debug: 12:10:45  Thread/WorkThread.cpp: 8  Thread 139928318289664 start
+Debug: 12:10:45  Thread/Thread_Poll.cpp: 23  Thread 139928318289664 is in poll
+Debug: 12:10:45  Thread/Thread_Poll.cpp: 23  Thread 139928309896960 is in poll
+Debug: 12:10:45  Thread/WorkThread.cpp: 8  Thread 139928309896960 start
+Debug: 12:10:45  Thread/Thread_Poll.cpp: 23  Thread 139928301504256 is in poll
+Debug: 12:10:45  Thread/WorkThread.cpp: 8  Thread 139928301504256 start
+Debug: 12:11:19  Socket/Socket.cpp: 86  6 accept success
+Debug: 12:11:36  Socket/Socket.cpp: 86  7 accept success
+Debug: 12:11:48  Socket/Socket.cpp: 86  8 accept success
+Debug: 12:11:55  Socket/Socket.cpp: 86  9 accept success
+Debug: 12:12:4  Socket/Socket.cpp: 86  10 accept success
+Debug: 12:12:9  Socket/Socket.cpp: 86  11 accept success
+Debug: 12:12:24  Socket/Socket.cpp: 86  12 accept success
+Debug: 12:12:40  Thread/Task.cpp: 16  11 is close and len is 
+Debug: 12:12:40  Socket/Socket.cpp: 110  11 is closed
+Debug: 12:12:48  Thread/Task.cpp: 16  12 is close and len is 
+Debug: 12:12:48  Socket/Socket.cpp: 110  12 is closed
+Debug: 12:12:52  Thread/Task.cpp: 16  10 is close and len is 
+Debug: 12:12:52  Socket/Socket.cpp: 110  10 is closed
+Debug: 12:12:58  Thread/Task.cpp: 16  9 is close and len is 
+Debug: 12:12:58  Socket/Socket.cpp: 110  9 is closed
+Debug: 12:13:1  Thread/Task.cpp: 16  8 is close and len is 
+Debug: 12:13:1  Socket/Socket.cpp: 110  8 is closed
+Debug: 12:13:4  Thread/Task.cpp: 16  6 is close and len is 
+Debug: 12:13:4  Socket/Socket.cpp: 110  6 is closed
+Debug: 12:13:7  Thread/Task.cpp: 16  7 is close and len is 
+Debug: 12:13:7  Socket/Socket.cpp: 110  7 is closed
+Debug: 12:17:3  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 12:17:3  Socket/Socket.cpp: 44  Bind success 
+Debug: 12:17:3  Socket/Socket.cpp: 58  4 is listening...
+Debug: 12:17:3  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch -1836423424 is start
+Debug: 12:17:3  Thread/Thread_Poll.cpp: 23  Thread 139919599752960 is in poll
+Debug: 12:17:3  Thread/Thread_Poll.cpp: 23  Thread 139919591360256 is in poll
+Debug: 12:17:3  Thread/WorkThread.cpp: 8  Thread 139919599752960 start
+Debug: 12:17:3  Thread/WorkThread.cpp: 8  Thread 139919591360256 start
+Debug: 12:17:6  Socket/Socket.cpp: 86  6 accept success
+Debug: 12:17:9  Socket/Socket.cpp: 86  7 accept success
+Debug: 12:17:12  Socket/Socket.cpp: 86  8 accept success
+Warn: 12:17:20  Thread/Thread_Poll.cpp: 39  Now all Workthread is used, need wait
+Warn: 12:17:43  Thread/Thread_Poll.cpp: 39  Now all Workthread is used, need wait
+Debug: 12:17:53  Thread/Task.cpp: 18  6 is close and len is 0
+Debug: 12:17:53  Socket/Socket.cpp: 110  6 is closed
+Debug: 12:17:55  Thread/Task.cpp: 18  8 is close and len is 0
+Debug: 12:17:55  Socket/Socket.cpp: 110  8 is closed
+Debug: 12:17:56  Thread/Task.cpp: 18  7 is close and len is 0
+Debug: 12:17:56  Socket/Socket.cpp: 110  7 is closed
+Debug: 12:23:34  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 12:23:34  Socket/Socket.cpp: 44  Bind success 
+Debug: 12:23:34  Socket/Socket.cpp: 58  4 is listening...
+Debug: 12:23:34  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch 1859897088 is start
+Debug: 12:23:34  Thread/Thread_Poll.cpp: 23  Thread 139760087316224 is in poll
+Debug: 12:23:34  Thread/WorkThread.cpp: 8  Thread 139760087316224 start
+Debug: 12:23:34  Thread/Thread_Poll.cpp: 23  Thread 139760078923520 is in poll
+Debug: 12:23:34  Thread/WorkThread.cpp: 8  Thread 139760078923520 start
+Debug: 12:24:20  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 12:24:20  Socket/Socket.cpp: 44  Bind success 
+Debug: 12:24:20  Socket/Socket.cpp: 58  4 is listening...
+Debug: 12:24:53  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch -140196096 is start
+Debug: 12:24:53  Thread/Thread_Poll.cpp: 23  Thread 140737339766528 is in poll
+Debug: 12:24:53  Thread/WorkThread.cpp: 8  Thread 140737339766528 start
+Debug: 12:24:53  Thread/Thread_Poll.cpp: 23  Thread 140737331373824 is in poll
+Debug: 12:24:53  Thread/WorkThread.cpp: 8  Thread 140737331373824 start
+Debug: 12:26:2  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 12:26:2  Socket/Socket.cpp: 44  Bind success 
+Debug: 12:26:2  Socket/Socket.cpp: 58  4 is listening...
+Debug: 12:26:2  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch -698956032 is start
+Debug: 12:26:2  Thread/Thread_Poll.cpp: 23  Thread 140350233949952 is in poll
+Debug: 12:26:2  Thread/WorkThread.cpp: 8  Thread 140350233949952 start
+Debug: 12:26:2  Thread/Thread_Poll.cpp: 23  Thread 140350225557248 is in poll
+Debug: 12:26:2  Thread/WorkThread.cpp: 8  Thread 140350225557248 start
+Debug: 17:8:9  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 17:8:9  Socket/Socket.cpp: 44  Bind success 
+Debug: 17:8:9  Socket/Socket.cpp: 58  4 is listening...
+Debug: 17:8:9  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch 140498476455680 is start
+Debug: 17:8:9  Thread/Thread_Poll.cpp: 23  Thread 140498468062976 is in poll
+Debug: 17:8:9  Thread/Thread_Poll.cpp: 23  Thread 140498459670272 is in poll
+Debug: 17:8:9  Thread/WorkThread.cpp: 8  Thread 140498459670272 start
+Debug: 17:8:9  Thread/WorkThread.cpp: 8  Thread 140498468062976 start
+Debug: 18:2:9  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 18:2:9  Socket/Socket.cpp: 44  Bind success 
+Debug: 18:2:9  Socket/Socket.cpp: 58  4 is listening...
+Debug: 18:2:9  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch 139652506900224 is start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652498507520 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652498507520 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652490114816 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652481722112 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652481722112 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652270913280 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652490114816 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652270913280 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652262520576 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652262520576 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652254127872 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652254127872 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652245735168 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652245735168 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652237342464 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652237342464 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652228949760 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139652220557056 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652228949760 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651868260096 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139652220557056 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651868260096 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651859867392 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651859867392 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651851474688 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651851474688 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651843081984 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651834689280 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651826296576 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651834689280 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651826296576 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651843081984 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651817903872 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651817903872 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651197171456 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651197171456 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651188778752 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651188778752 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651180386048 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651180386048 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651171993344 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651171993344 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651163600640 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651163600640 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651155207936 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651155207936 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139651146815232 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139651146815232 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650660300544 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650660300544 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650651907840 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650651907840 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650643515136 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650643515136 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650635122432 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650635122432 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650626729728 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650626729728 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650618337024 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650618337024 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650609944320 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650609944320 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650123429632 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650123429632 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650115036928 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650115036928 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650106644224 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650106644224 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650098251520 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650098251520 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650089858816 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650089858816 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650081466112 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650081466112 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650073073408 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650073073408 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650064680704 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650064680704 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650056288000 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650056288000 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650047895296 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650047895296 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650039502592 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650039502592 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650031109888 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650031109888 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650022717184 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650022717184 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650014324480 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650014324480 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139650005931776 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139650005931776 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649997539072 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649997539072 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649989146368 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649989146368 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649980753664 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649980753664 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649972360960 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649972360960 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649963968256 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649963968256 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649955575552 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649947182848 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649938790144 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649938790144 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649930397440 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649922004736 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649947182848 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649913612032 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649930397440 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649922004736 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649905219328 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649955575552 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649905219328 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649896826624 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649913612032 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649896826624 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649888433920 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649888433920 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649880041216 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649880041216 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649871648512 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649871648512 start
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649863255808 start
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649863255808 is in poll
+Debug: 18:2:9  Thread/Thread_Poll.cpp: 23  Thread 139649854863104 is in poll
+Debug: 18:2:9  Thread/WorkThread.cpp: 8  Thread 139649854863104 start
+Debug: 18:2:29  Socket/Socket.cpp: 86  6 accept success
+Debug: 18:2:37  Socket/Socket.cpp: 86  7 accept success
+Debug: 18:2:40  Task/Task.cpp: 18  7 is close and len is 0
+Debug: 18:2:40  Socket/Socket.cpp: 110  7 is closed
+Debug: 18:2:42  Task/Task.cpp: 18  6 is close and len is 0
+Debug: 18:2:42  Socket/Socket.cpp: 110  6 is closed
+Debug: 18:2:45  Socket/Socket.cpp: 86  6 accept success
+Debug: 18:2:49  Task/Task.cpp: 18  6 is close and len is 0
+Debug: 18:2:49  Socket/Socket.cpp: 110  6 is closed

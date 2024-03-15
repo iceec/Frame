@@ -1,0 +1,16 @@
+Debug: 13:44:2  Socket/Socket.cpp: 14  create socket 4 success
+
+Debug: 13:44:2  Socket/Socket.cpp: 44  Bind success 
+
+Debug: 13:44:2  Socket/Socket.cpp: 58  4 is listening...
+
+Debug: 13:44:7  Socket/Socket.cpp: 86  0 accept success
+
+Debug: 13:45:47  Socket/Socket.cpp: 14  create socket 4 success
+
+Debug: 13:45:47  Socket/Socket.cpp: 44  Bind success 
+
+Debug: 13:45:47  Socket/Socket.cpp: 58  4 is listening...
+
+Debug: 13:45:50  Socket/Socket.cpp: 86  0 accept success
+
