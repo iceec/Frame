@@ -1,5 +1,6 @@
 #include"System_Path.h"
 #include"log.h"
+#include<sys/resource.h>
 using namespace Yu::utility;
 
 string System_Path::get_path_name(){
@@ -26,8 +27,18 @@ string System_Path::get_path_name(){
 System_Path::System_Path(){
     m_work_path.clear();
     m_work_path=get_path_name();
+    core_dump();
 }
-
+System_Path::~System_Path(){}
 string System_Path::name(){
     return m_work_path;
+}
+//这个说是处理异常的 但是并不知道有什么用
+void System_Path::core_dump(){
+    struct rlimit x;
+    x.rlim_cur=RLIM_INFINITY;
+    x.rlim_max=RLIM_INFINITY;
+    setrlimit(RLIMIT_CORE,&x);
+
+    
 }

@@ -9,32 +9,35 @@ SocketObjs:=$(patsubst %.cpp, %.o, $(filter %.cpp, $(SocketCpps)))
 $(warning SocketObjs is $(SocketObjs))
 
 ThreadCpps:=$(shell find ./Thread -type f | grep '.cpp')
-$(info SocketCpps is $(ThreadCpps))
+$(info ThreadCpps is $(ThreadCpps))
 ThreadObjs:=$(patsubst %.cpp, %.o, $(filter %.cpp, $(ThreadCpps)))
-$(info SocketObjs is $(ThreadObjs))
+$(info ThreadObjs is $(ThreadObjs))
 
 TaskCpps:=$(shell find ./Task -type f | grep '.cpp')
-$(info SocketCpps is $(TaskCpps))
+$(info TaskCpps is $(TaskCpps))
 TaskObjs:=$(patsubst %.cpp, %.o, $(filter %.cpp, $(TaskCpps)))
-$(info SocketObjs is $(TaskObjs))
+$(info TaskObjs is $(TaskObjs))
 
-
+FrameCpps:=$(shell find ./Frame -type f | grep '.cpp')
+$(info FrameCpps is $(FrameCpps))
+FrameObjs:=$(patsubst %.cpp, %.o, $(filter %.cpp, $(FrameCpps)))
+$(info FrameObjs is $(FrameObjs))
 
 
 # TestFiles=./Test
 # SrcFiles=  ./Socket ./Thread ./Utility
- HeaderFiles= ./Socket ./Thread ./Utility
+ HeaderFiles= ./Socket ./Thread ./Utility ./Frame
 # LibFiles=./lib
 # LibSo= lnet
 
 
 # DFLAGS = -MP -MD
-CFLAGS = -g -O2 -Wall  -Werror -Wno-unused -fPIC -std=c++11 -lpthread -I./Socket  -I./Thread -I./Utility -I./Task  #静不能share
+CFLAGS = -g -O2 -Wall  -Werror -Wno-unused -fPIC -std=c++11 -lpthread -I./Socket  -I./Thread -I./Utility -I./Task -I./Frame  #静不能share
 LFLAGS = -std=c++11 -lpthread  -g -O2 -Wall -shared -Werror -Wno-unused  $(foreach D ,$(LibSo), -$(D)) $(foreach D,$(LibFiles), -L $(D)) 
 
 
 
-SrcObjs:=$(ThreadObjs) $(SocketObjs) $(UtilityObjs) $(TaskObjs)
+SrcObjs:=$(ThreadObjs) $(SocketObjs) $(UtilityObjs) $(FrameObjs) $(TaskObjs) 
 
 s1objs=sever1.o
 c1objs=client1.o

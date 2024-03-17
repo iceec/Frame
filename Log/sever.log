@@ -1,0 +1,146 @@
+Debug: 15:38:36  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 15:38:36  Socket/Socket.cpp: 44  Bind success 
+Debug: 15:38:36  Socket/Socket.cpp: 58  4 is listening...
+Debug: 15:38:36  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch 140012124927744 is start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140012116535040 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140012116535040 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140012108142336 is in poll
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140012099749632 is in poll
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140012091356928 is in poll
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140012082964224 is in poll
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140012074571520 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140012091356928 start
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140012082964224 start
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140012074571520 start
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140012108142336 start
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140012099749632 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140012066178816 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140012066178816 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140012057786112 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140012057786112 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140011571771136 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140011571771136 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140011563378432 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140011563378432 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140011554985728 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140011554985728 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140011546593024 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140011546593024 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140011538200320 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140011538200320 start
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140011529807616 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140011529807616 is in poll
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140011521414912 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140011521414912 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010967791360 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010967791360 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010959398656 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010959398656 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010951005952 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010951005952 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010942613248 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010942613248 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010934220544 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010934220544 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010925827840 is in poll
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010917435136 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010917435136 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010565138176 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010565138176 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010556745472 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010925827840 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010548352768 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010548352768 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010539960064 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010539960064 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010531567360 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010531567360 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010523174656 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010523174656 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010514781952 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010514781952 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010028267264 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010028267264 start
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010019874560 start
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010556745472 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010019874560 is in poll
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010011481856 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010011481856 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140010003089152 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140010003089152 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009994696448 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009994696448 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009986303744 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009986303744 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009977911040 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009977911040 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009692722944 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009692722944 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009684330240 is in poll
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009675937536 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009675937536 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009667544832 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009667544832 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009659152128 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009659152128 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009650759424 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009650759424 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009642366720 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009642366720 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009633974016 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009633974016 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009625581312 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009625581312 start
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009617188608 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009617188608 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009684330240 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009608795904 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009608795904 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009600403200 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009600403200 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009592010496 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009592010496 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009583617792 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009583617792 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009575225088 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009575225088 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009566832384 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009566832384 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009558439680 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009558439680 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009550046976 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009550046976 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009541654272 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009541654272 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009533261568 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009533261568 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009524868864 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009524868864 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009516476160 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009516476160 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009508083456 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009508083456 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009499690752 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009499690752 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009491298048 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009491298048 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009482905344 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009482905344 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009474512640 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009474512640 start
+Debug: 15:38:36  Thread/Thread_Poll.cpp: 23  Thread 140009466119936 is in poll
+Debug: 15:38:36  Thread/WorkThread.cpp: 8  Thread 140009466119936 start
+Debug: 15:38:58  Socket/Socket.cpp: 14  create socket 4 success
+Debug: 15:38:58  Socket/Socket.cpp: 44  Bind success 
+Debug: 15:38:58  Socket/Socket.cpp: 58  4 is listening...
+Debug: 15:38:58  Thread/Thread_Dispatch.cpp: 11  Thread_Dispatch 139878819915520 is start
+Debug: 15:38:58  Thread/Thread_Poll.cpp: 23  Thread 139878811522816 is in poll
+Debug: 15:38:58  Thread/Thread_Poll.cpp: 23  Thread 139878803130112 is in poll
+Debug: 15:38:58  Thread/WorkThread.cpp: 8  Thread 139878811522816 start
+Debug: 15:38:58  Thread/Thread_Poll.cpp: 23  Thread 139878794737408 is in poll
+Debug: 15:38:58  Thread/WorkThread.cpp: 8  Thread 139878794737408 start
+Debug: 15:38:58  Thread/Thread_Poll.cpp: 23  Thread 139878786344704 is in poll
+Debug: 15:38:58  Thread/WorkThread.cpp: 8  Thread 139878786344704 start
+Debug: 15:38:58  Thread/Thread_Poll.cpp: 23  Thread 139878777952000 is in poll
+Debug: 15:38:58  Thread/WorkThread.cpp: 8  Thread 139878777952000 start
+Debug: 15:38:58  Thread/WorkThread.cpp: 8  Thread 139878803130112 start
