@@ -23,21 +23,36 @@ $(info FrameCpps is $(FrameCpps))
 FrameObjs:=$(patsubst %.cpp, %.o, $(filter %.cpp, $(FrameCpps)))
 $(info FrameObjs is $(FrameObjs))
 
+EngineCpps:=$(shell find ./Engine -type f | grep '.cpp')
+$(info FrameCpps is $(EngineCpps))
+EngineObjs:=$(patsubst %.cpp, %.o, $(filter %.cpp, $(EngineCpps)))
+$(info FrameObjs is $(EngineObjs))
+
+PlugCpps:=$(shell find ./Plugin -type f | grep '.cpp')
+$(info PlugCpps is $(PlugCpps))
+PlugObjs:=$(patsubst %.cpp, %.o, $(filter %.cpp, $(PlugCpps)))
+$(info PlugObjs is $(PlugObjs))
+Pluglib :=$(patsubst %.cpp, %.so, $(filter %.cpp, $(PlugCpps)))
+$(info Pluglib is $(Pluglib))
+
+
+
+
 
 # TestFiles=./Test
 # SrcFiles=  ./Socket ./Thread ./Utility
- HeaderFiles= ./Socket ./Thread ./Utility ./Frame
+ HeaderFiles= ./Socket ./Thread ./Utility ./Task ./Frame ./Plugin ./Engine 
 # LibFiles=./lib
 # LibSo= lnet
 
-
+#$(foreach D ,$(LibSo), -$(D)) $(foreach D,$(LibFiles), -L $(D)) 
 # DFLAGS = -MP -MD
-CFLAGS = -g -O2 -Wall  -Werror -Wno-unused -fPIC -std=c++11 -lpthread -I./Socket  -I./Thread -I./Utility -I./Task -I./Frame  #静不能share
-LFLAGS = -std=c++11 -lpthread  -g -O2 -Wall -shared -Werror -Wno-unused  $(foreach D ,$(LibSo), -$(D)) $(foreach D,$(LibFiles), -L $(D)) 
+CFLAGS = -g -O2 -Wall  -Werror -Wno-unused -fPIC -std=c++11 -lpthread -ldl $(foreach D ,$(HeaderFiles),-I$(D))  #静不能share
+LFLAGS = -std=c++17 -shared -fPIC -lpthread -ldl -g -O2 -Wall -Werror -Wno-unused  -I./Socket -I./Thread -I./Utility -I./Task -I./Frame -I./Plugin -I ./Engine 
 
 
 
-SrcObjs:=$(ThreadObjs) $(SocketObjs) $(UtilityObjs) $(FrameObjs) $(TaskObjs) 
+SrcObjs:=$(ThreadObjs) $(SocketObjs) $(UtilityObjs) $(FrameObjs) $(TaskObjs) $(EngineObjs)
 
 s1objs=sever1.o
 c1objs=client1.o
@@ -56,8 +71,16 @@ c1 :$(SrcObjs) $(c1objs)
 	g++ $^ $(CFLAGS) -c -o $@
 
 
+lib: $(Pluglib)
+
+%.so:%.cpp
+	g++ $^ $(LFLAGS) -o $@
+
+
 clean:
 	rm -f $(SrcObjs) 
+cleanlib:
+	rm -f $(Pluglib)
 
 libNet:$(SrcObjs) 
 	g++ $^ $(CFLAGS) -Wl,-soname,libnet.so.1 -o libnet.so.1.2.3

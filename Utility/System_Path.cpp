@@ -30,7 +30,7 @@ System_Path::System_Path(){
     core_dump();
 }
 System_Path::~System_Path(){}
-string System_Path::name(){
+string System_Path::path_name(){
     return m_work_path;
 }
 //这个说是处理异常的 但是并不知道有什么用

@@ -60,10 +60,12 @@ namespace Yu
       size_t m_len = 0;
 
       size_t m_maxsize = 0;
-
+      
       static const char *levelname[LEVEL_COUNT];
       bool is_console;
+      
       Yu::thread::Mutex log_loc;
+      bool is_have;
     };
 
   }

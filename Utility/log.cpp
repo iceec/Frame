@@ -17,22 +17,25 @@ namespace Yu
 
         void logger::open(const string &logfile)
         {
-
+           if(is_have)
+                close();
             logfile_stream.open(logfile, std::ios::app);
 
             if (logfile_stream.fail())
                 throw logic_error("can't open this log file" + logfile);
             file_name = logfile;
+            is_have=true;
             cout << file_name << endl;
             m_len = 0;
         }
 
-        logger::logger() : logfile_level(LEVEL_DEBUG), m_len(0), m_maxsize(0), is_console(true), log_loc() {}
+        logger::logger() : logfile_level(LEVEL_DEBUG), m_len(0), m_maxsize(0), is_console(false), log_loc(),is_have(false) {}
 
         void logger::close()
         {
             logfile_stream.close();
             m_len = 0;
+            is_have=false;
         }
         void logger::setconsole()
         {

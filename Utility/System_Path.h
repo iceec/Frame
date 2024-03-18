@@ -9,7 +9,7 @@ namespace Yu::utility{
 
         public:
             
-            string name();
+            string path_name();
             void core_dump();
         private:
             string get_path_name();
