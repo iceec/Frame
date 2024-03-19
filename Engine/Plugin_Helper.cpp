@@ -54,3 +54,7 @@ void *Plugin_Helper::sym(const string &so_name, const string &func_name)
 
     return p;
 }
+
+Plugin_Helper::Plugin_Helper(){}
+
+Plugin_Helper::~Plugin_Helper(){}

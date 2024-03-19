@@ -1,0 +1,8 @@
+
+log:plugin  pluginhelper
+对于extern c而言必须得是类外的函数 那么类外的函数还能不重是因为 每个cpp自己单独编译自己的库所以每个库都有create和destrory
+
+plugin类为了帮助所有接口插件都能满足run 为了在workthread中调用 同时每个函数的destroy自己调用
+
+helper类为动态连接提供方便 别忘了需要ldl 这样在程序执行的时候在进行 动态链接 
+

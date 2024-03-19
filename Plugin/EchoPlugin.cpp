@@ -5,6 +5,7 @@ using namespace Yu::plugin;
 
 DEFINE_PLUGIN(EchoPlugin)
 
-void EchoPlugin::run(){
+bool EchoPlugin::run(){
         cout<<"Hello World\n";
+        return 1;
 }

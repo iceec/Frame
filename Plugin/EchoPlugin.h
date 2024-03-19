@@ -4,7 +4,7 @@ using namespace Yu::plugin;
 namespace Yu::plugin{
     class EchoPlugin:public Plugin{
         public:
-        virtual void run();
+        virtual bool run();
         EchoPlugin()=default;
         ~EchoPlugin()=default;
     };
