@@ -11,7 +11,7 @@ namespace Yu::plugin{
             ~Work();
             void append(Plugin *);
             bool get_switch(){return m_switch;}
-            void set_switvh(bool flags){m_switch=flags;}
+            void set_switch(bool flags){m_switch=flags;}
             int get_id(){return m_id;}
             void set_id(int id){m_id=id;}
             void run();

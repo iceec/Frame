@@ -1,5 +1,6 @@
 #include"server.h"
-#include"Work.h"
+
+#include"Work_Flow.h"
 using namespace Yu::socket;
 using namespace Yu::utility;
 using namespace Yu::thread;
@@ -8,18 +9,11 @@ using namespace Yu::plugin;
 int main(){
 //single<Server>::instance()->start();
 
-Work a;
+WorkFlow a;
 
-single<Plugin_Helper>::instance()->load("EchoPlugin.so");
-
-void *p=single<Plugin_Helper>::instance()->sym("EchoPlugin.so","create");
-
-m x=(m)p;
-
-a.append(x());
-
-a.run();
-
+a.load("work.xml");
+string b;
+a.run(1,"",b);
 
 // Plugin_Helper temp;
 // temp.load("EchoPlugin.so");
