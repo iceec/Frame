@@ -35,10 +35,6 @@ PlugObjs:=$(patsubst %.cpp, %.o, $(filter %.cpp, $(PlugCpps)))
 Pluglib :=$(patsubst %.cpp, %.so, $(filter %.cpp, $(PlugCpps)))
 # $(info Pluglib is $(Pluglib))
 
-
-
-
-
 # TestFiles=./Test
 # SrcFiles=  ./Socket ./Thread ./Utility
  HeaderFiles= ./Socket ./Thread ./Utility ./Task ./Frame ./Plugin ./Engine 
@@ -48,7 +44,7 @@ Pluglib :=$(patsubst %.cpp, %.so, $(filter %.cpp, $(PlugCpps)))
 #$(foreach D ,$(LibSo), -$(D)) $(foreach D,$(LibFiles), -L $(D)) 
 # DFLAGS = -MP -MD
 CFLAGS = -g -O2 -Wall  -Werror -Wno-unused -fPIC -std=c++11 -lpthread -ldl $(foreach D ,$(HeaderFiles),-I$(D))  #静不能share
-LFLAGS = -std=c++17 -shared -fPIC -lpthread -ldl -g -O2 -Wall -Werror -Wno-unused  -I./Socket -I./Thread -I./Utility -I./Task -I./Frame -I./Plugin -I ./Engine 
+LFLAGS = -std=c++17 -shared -fPIC -lpthread -ldl -g -O2 -Wall -Werror -Wno-unused  $(foreach D ,$(HeaderFiles),-I$(D))  
 
 
 
@@ -78,7 +74,7 @@ lib: $(Pluglib)
 
 
 clean:
-	rm -f $(SrcObjs) 
+	rm -f $(SrcObjs) $(Pluglib)
 cleanlib:
 	rm -f $(Pluglib)
 

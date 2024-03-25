@@ -25,7 +25,7 @@ bool Work::run(Context &p, const string &libname)
             {
                 if ((*it)->run(p) == false) // 真实情况 每个work这里都要去一个线程执行任务
                 {
-                    // log
+                    LOGGERERROR("%s work return is false\n",(*it)->libso_name().c_str());
                     return false;
                 }
             }
@@ -40,6 +40,7 @@ bool Work::run(Context &p, const string &libname)
 
             if ((*it)->flag()&&(*it)->libso_name()==libname)
             {
+                LOGGERDEBUG("%s is prepare to run\n",libname.c_str());
                 return (*it)->run(p);
             }
         }
