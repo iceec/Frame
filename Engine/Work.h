@@ -1,6 +1,7 @@
 #pragma once
 #include"Plugin_Helper.h"
 #include"Plugin.h"
+#include"Context.h"
 #include<vector>
 using std::vector;
 namespace Yu::plugin{
@@ -14,7 +15,7 @@ namespace Yu::plugin{
             void set_switch(bool flags){m_switch=flags;}
             int get_id(){return m_id;}
             void set_id(int id){m_id=id;}
-            void run();
+            bool run(Context &,const string &libname="");
         private:
             int m_id;
             bool m_switch;

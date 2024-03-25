@@ -3,11 +3,6 @@
 using namespace Yu::utility;
 
 
-
-
-Context::~Context(){clear();}
-Context::Context(){}
-
 void Context::clear(){
     m_bool.clear();
     m_char.clear();

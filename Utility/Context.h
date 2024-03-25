@@ -19,9 +19,10 @@ namespace Yu::utility
 
     class Context
     {
-        SINGLE(Context);
 
     public:
+        ~Context() { clear(); }
+        Context() {}
         void clear();
         template <class T>
         void set(const string &key, T value);
@@ -30,7 +31,7 @@ namespace Yu::utility
         inline void set(const string &key, Object *value);
         template <class T>
         bool get(const string &key, T &);
-        inline bool get(const string &key, Object *(& p));
+        inline bool get(const string &key, Object *(&p));
         inline bool get(const string &key, string &p);
         bool get(const string &key, char *buf, int len);
 
@@ -111,7 +112,6 @@ namespace Yu::utility
         return true;
     }
 
-  
     bool Context::get(const string &key, string &p)
     {
         if (m_string.count(key))
@@ -122,7 +122,7 @@ namespace Yu::utility
         return true;
     }
 
-    bool Context::get(const string &key, Object *(& p))
+    bool Context::get(const string &key, Object *(&p))
     {
         if (m_objs.count(key))
             p = m_objs[key];
@@ -133,4 +133,4 @@ namespace Yu::utility
 
 }
 
-//quesetion  为什么有的作片特化不可以呢  
+// quesetion  为什么有的作片特化不可以呢

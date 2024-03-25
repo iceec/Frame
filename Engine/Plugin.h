@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
+#include"Context.h"
 using std::string;
+using namespace Yu::utility;
 namespace Yu::plugin
 {
 
@@ -14,7 +16,7 @@ namespace Yu::plugin
         const string &libso_name() { return m_libso_name; }
         void set_flag(bool flags) { is_on = flags; }
         bool flag() { return is_on; }
-        virtual bool run() = 0;
+        virtual bool run(Context &) = 0;
 
     private:
         string m_libso_name;

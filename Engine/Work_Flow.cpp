@@ -1,6 +1,7 @@
 
 #include "Work_Flow.h"
 #include "System_Path.h"
+#include"Context.h"
 #include <stdexcept>
 #include <iostream>
 using namespace Yu::plugin;
@@ -83,11 +84,14 @@ bool WorkFlow::run(int id, const string &input, string &output, const string &li
         // log
         return false;
     }
-    if (libname.size() == 0)
-    {
-        p->run();
-        return true;
-    }
+
+    Context temp;
+
+    temp.set("input",input);
+
+    
+        return  p->run(temp,libname);
+    
     //这里的优化是每一个 plugin其实都是有名字的 所以work存储的时候可以名字对应一个map这样指定run的画会有效
     return true;
 }
