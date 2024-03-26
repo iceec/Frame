@@ -1,7 +1,8 @@
 #include "Socket_Handle.h"
-#include "Task.h"
+
 #include "WorkThread.h"
 #include"Thread_Dispatch.h"
+#include"Work_Task.h"
 using namespace Yu::socket;
 using namespace Yu::thread;
 #define MAXREV 1024
@@ -80,7 +81,7 @@ void Socket_Handle::remove(int fd)
                     remove(fd);
                     continue;
                 }
-             Task *p= new EchoTask(fd);
+             Task *p= new Work_Task(fd);
              single<Thread_Dispatch>::instance()->push(p);
 
              }

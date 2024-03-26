@@ -1,20 +1,26 @@
 #include "server.h"
+#include<iostream>
 #include <dirent.h>
 #include <sys/stat.h>
 using namespace Yu::socket;
 using namespace Yu::utility;
+using namespace Yu::plugin;
 using std::string;
-
+using std::cout;
+using std::endl;
 Server::Server(){}
 Server::~Server(){}
 
 void Server::start()
 {
-
+   
     init();
     auto p1 = single<System_Path>::instance();
     single<ini>::instance()->load(p1->path_name() + "/Config/server.ini");
+    single<WorkFlow>::instance()->load("work.xml");
     auto p = single<ini>::instance();
+
+
    // 服务端这个没啥必要阿
     m_port = (*p)["server"]["port"];
     m_threads = (*p)["server"]["threads"];
@@ -23,6 +29,9 @@ void Server::start()
     m_max_handle = (*p)["server"]["max_handle"];
 
 single<logger>::instance()->open(p1->path_name()+"/Log/sever.log");
+
+single<logger>::instance()->setconsole(true);
+
 single<logger>::instance()->setlevel((logger::LEVEL)m_log_level);
 single<Socket_Handle>::instance()->Bind_Listen_Create("",m_port,m_max_handle);
 single<Thread_Dispatch>::instance()->init(m_threads);

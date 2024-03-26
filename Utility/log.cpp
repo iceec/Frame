@@ -37,9 +37,9 @@ namespace Yu
             m_len = 0;
             is_have=false;
         }
-        void logger::setconsole()
+        void logger::setconsole(bool flags)
         {
-            is_console = false;
+            is_console = flags;
         }
 
         void logger::setmaxsize(const size_t x)

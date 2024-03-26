@@ -12,6 +12,9 @@ using std::cout;
 using std::endl;
 static void f(const string &a) { throw logic_error(a); }
 
+WorkFlow::WorkFlow() {}
+WorkFlow::~WorkFlow() {}
+
 void WorkFlow::load(const string &filename)
 {
     string path = single<System_Path>::instance()->path_name() + "/Config/" + filename;

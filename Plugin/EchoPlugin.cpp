@@ -11,8 +11,6 @@ bool EchoPlugin::run(Context & p){
      if(p.get("input",temp)){
       cout<<temp<<std::endl;
      }
-        
-
         cout<<libso_name()<<"\n";
         cout<<"Hello World\n";
         return 1;

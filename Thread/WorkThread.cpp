@@ -20,6 +20,7 @@ void WorkThread::run()
             m_Wthread_loc.unlock();
             continue;
         }
+        LOGGERDEBUG("Thread %ld have task to run\n", m_id);
         m_Wthread_tas->run();
         m_Wthread_tas->destory();
         m_Wthread_tas = nullptr;

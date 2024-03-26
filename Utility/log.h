@@ -43,7 +43,7 @@ namespace Yu
       void open(const string &logfile);
 
       void close();
-      void setconsole();
+      void setconsole(bool );
 
       void setmaxsize(const size_t x);
 
